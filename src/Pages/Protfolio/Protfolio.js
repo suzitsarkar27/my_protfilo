@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Feature/Card';
 import ProjectCard from './ProjectCard';
+import './Protfolio.css'
 
 const Protfolio = () => {
     const [projects,setProjects]=useState([]);
