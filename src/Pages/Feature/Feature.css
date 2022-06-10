@@ -12,6 +12,7 @@
   margin-top: 20px;
   transition: 0.5s;
   opacity: 0;
+  color: white;
 }
 
 .features .box:hover p {

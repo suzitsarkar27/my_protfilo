@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Card from './Card';
 import './Feature.css'
 
 const Feature = () => {
+    const [items,setItems]=useState([]);
+    useEffect(()=>{
+        fetch('data.json')
+        .then(res=>res.json())
+        .then(data=>setItems(data))
+    },[])
     return (
         <>
              <section className='features top'id='features'>
@@ -11,18 +18,13 @@ const Feature = () => {
                         <h1>What I Do</h1>
                     </div>
                     <div className="content grid">
-                         <div className="box btn_shadow">
-                             <img src="" alt="" />
-                             <h2>titel</h2>
-                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, itaque!</p>
-
-                             <a href="">
-                                <i className='fas fa-arrow-right'></i>
-                             </a>
-                         </div>
+                        {
+                            items.map(item=> <Card key={item.id} item={item}/>)
+                        }    
                     </div>
                 </div>
              </section>
+             
         </>
     );
 };
