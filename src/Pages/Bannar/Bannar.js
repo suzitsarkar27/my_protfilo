@@ -8,10 +8,12 @@ import "./Bannar.css";
 
 const Bannar = () => {
   return (
-    <>
-      <section className="hero" id="home">
-        <div className="container f_flex top">
-          <div className="left top">
+    <div class="hero min-h-screen ">
+       <div class="hero-content flex-col lg:flex-row">
+      
+        <div>
+        <div >
+          <div >
             <h3>WELCOME TO MY WORLD</h3>
             <h1>
               Hi, I’m <span>Suzit</span>
@@ -66,14 +68,14 @@ const Bannar = () => {
               </div>
             </div>
           </div>
-          <div className="right">
-            <div className="right_img">
-              <img src={hero} alt="" />
-            </div>
-          </div>
         </div>
-      </section>
-    </>
+        </div>
+        <img
+          src={hero}
+          class="max-w-sm rounded-lg shadow-2xl"
+        />
+      </div>
+    </div>
   );
 };
 

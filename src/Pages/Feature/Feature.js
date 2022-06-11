@@ -17,7 +17,7 @@ const Feature = () => {
                         <h4>Features</h4>
                         <h1>What I Do</h1>
                     </div>
-                    <div className="content grid">
+                    <div className="content grid ">
                         {
                             items.map(item=> <Card key={item.id} item={item}/>)
                         }    
