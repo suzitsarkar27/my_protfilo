@@ -11,16 +11,18 @@ const Feature = () => {
     },[])
     return (
         <>
-             <section className='features top'id='features'>
+             <section className='features top' id='features'>
                 <div className="container">
                     <div className="heading">
                         <h4>Features</h4>
                         <h1>What I Do</h1>
                     </div>
-                    <div className="content grid ">
-                        {
-                            items.map(item=> <Card key={item.id} item={item}/>)
-                        }    
+                    <div >
+                       <div className="content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                               {
+                                    items.map(item=> <Card key={item.id} item={item}/>)
+                                } 
+                        </div>   
                     </div>
                 </div>
              </section>

@@ -4,20 +4,16 @@ import { Link, NavLink } from "react-router-dom";
 const Hearder = ({children}) => {
   const menubar=[
     
-    <li> <a href='#home'>home</a> </li>,
-    <li> <a href='#features'>features</a></li>,
-    <li> <a href='#portfolio'>portfolio</a></li>,
-    <li><a href='#resume'>resume</a></li>,
-    <li> <a href='#clients'>clients</a></li>,
-    <li> <a href='#blog'>blog</a> </li>,
-    <li><a href='#contact'>contact</a> </li>,
+    <li> <a className="hover:text-red-500" href='#home'>home</a> </li>,
+    <li> <a className="hover:text-red-500" href='#features'>features</a></li>,
+    <li> <a className="hover:text-red-500" href='#portfolio'>portfolio</a></li>,
+    <li><a className="hover:text-red-500" href='#resume'>resume</a></li>,
+    <li> <a className="hover:text-red-500" href='#clients'>clients</a></li>,
+    <li> <a className="hover:text-red-500" href='#blog'>blog</a> </li>,
+    <li><a className="hover:text-red-500" href='#contact'>contact</a> </li>,
 
     <li class="dropdown dropdown-open dropdown-end">     
           <label tabindex="0" class=" btn m-1 rounded-lg btn-primary btn-outline">Hover</label>
-          <ul tabindex="0" class="dropdown-content menu p-2 shadow rounded-box w-52">
-            <li><a>Item 1</a></li>
-            <li><a>Item 2</a></li>
-          </ul>
     </li>,
     
    <label  class="swap swap-rotate">
@@ -32,15 +28,15 @@ const Hearder = ({children}) => {
   <input id="my-drawer-3" type="checkbox" class="drawer-toggle" /> 
   <div class="drawer-content flex flex-col">
    
-    <div class="w-full navbar sticky top-0 z-10  px-20">
+    <div class="w-full navbar sticky top-0 z-10  px-20 py-12 btn-none boxex">
       <div class="flex-1 px-2 mx-2">Suzit Sarkar</div>
       <div class="flex-none lg:hidden">
-        <label for="my-drawer-3" class="btn btn-square btn-ghost">
+        <label for="my-drawer-3" class="btn btn-square btn-ghost ">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
         </label>
       </div> 
 
-      <div class="flex-none hidden lg:block">
+      <div class="flex-none hidden lg:block ">
         <ul class="menu menu-horizontal  gap-3">
            {menubar}
         </ul>
@@ -49,9 +45,9 @@ const Hearder = ({children}) => {
     {children}
   </div> 
 
-  <div class="drawer-side">
+  <div class="drawer-side ">
     <label for="my-drawer-3" class="drawer-overlay"></label> 
-    <ul class="menu gap-3 p-4 overflow-y-auto w-80 bg-base-100">
+    <ul class="menu gap-3 p-4 overflow-y-auto w-80 boxex">
         {menubar}
     </ul>
   </div>

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Card from '../Feature/Card';
 import ProjectCard from './ProjectCard';
-import './Protfolio.css'
+import './Portfolio.css'
 
 const Protfolio = () => {
     const [projects,setProjects]=useState([]);
@@ -12,21 +11,22 @@ const Protfolio = () => {
     },[])
     return (
         <>
-            <section className='protfolio top' id='portfolio'>
-               <div className="container">
-                <div className="heading text-center">
-                     <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
-                     <h1>My Protfolo</h1>
-                </div>
-               </div>
+        <section className='Portfolio top' id='portfolio'>
+          <div className='container'>
+            <div className='heading text-center '>
+              <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
+              <h1>My Portfolio</h1>
+            </div>
+  
+            <div className='content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+              {
+                projects.map(project=><ProjectCard project={project} key={project.id}></ProjectCard>)
+              }
 
-               <div className="content grid">
-                    {
-                        projects.map(project=><ProjectCard key={project.id} project={project}/>)
-                    }
-               </div>
-            </section>
-        </>
+            </div>
+          </div>
+        </section>
+      </>
     );
 };
 

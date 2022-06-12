@@ -8,7 +8,7 @@ import "./Bannar.css";
 
 const Bannar = () => {
   return (
-    <div class="hero min-h-screen ">
+    <div class="hero min-h-screen " id="home">
        <div class="hero-content flex-col lg:flex-row">
       
         <div>

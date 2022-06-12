@@ -21,4 +21,5 @@
 
 .features .box:hover i {
   opacity: 1;
+  color:white;
 }
