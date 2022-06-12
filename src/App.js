@@ -8,14 +8,14 @@ import Hearder from './Sheared/Header/Hearder';
 
 function App() {
   return (
-    <>
+    <section className='max-w-7xl mx-auto'>
     <Hearder>
           <Home></Home>
           <Protfolio></Protfolio>
        </Hearder>
      
 
-    </>
+    </section>
   );
 }
 

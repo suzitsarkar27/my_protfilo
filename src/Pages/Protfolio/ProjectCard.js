@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 
 const ProjectCard = ({project}) => {
-
-    const {image,category,title,totalLike}=project;
+   
+  const {image,category,totalLike,title,live,client}=project;
     return (
       <>
-      <div className='box btn_shadow '>
+      <div className='box btn_shadow w-full'>
         <div className='img'>
           <img src={image} alt=''  />
         </div>
@@ -17,14 +17,14 @@ const ProjectCard = ({project}) => {
         </div>
         <div className='title'>
           <h2>{title}</h2>
-      <div className="grid grid-cols-1  gap-5">
-          <button className='btn_shadow ml-2'>
-             LIVE SIDE
+       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <button className='btn_shadow '>
+           <a href={live}> LIVE SIDE</a>
           </button>
-          <button className='btn_shadow ml-2'>
-             CODE LINK
+          <button className='btn_shadow '>
+             <a href={client}>CODE LINK</a>
           </button>
-          <button className='btn_shadow ml-2'>
+          <button className='btn_shadow '>
              DETALCE
           </button>
        </div>

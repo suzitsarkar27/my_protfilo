@@ -38,6 +38,7 @@ const Bannar = () => {
               experiences and kuiding thro each and every interaction. I’m not
               adding motion just to spruce things up, but doing it in ways that.
             </p>
+            <button className="btn_shadow mt-8">DOWENLODE RESUME</button>
 
             <div className="hero_btn d_flex">
               <div className="col_1">

@@ -1,10 +1,14 @@
 [
   {
     "id": 1,
-    "category": "DEVELOPMENT",
+    "category": "BOOK INVENTORT MREN STACK",
     "totalLike": "600",
     "title": "The services provide for design ",
-    "image": "https://i.ibb.co/9NzFMcc/GPID-1100312106-00.jpg"
+    "image": "https://i.ibb.co/87L8WgJ/Capture.jpg",
+    "live":"https://book-inventory-clientside.web.app",
+    "client":"https://github.com/suzitsarkar27/Book-inventory-client",
+    "server":""
+    
   },
   
   {
@@ -12,7 +16,10 @@
     "category": "APPLICATION",
     "totalLike": "600",
     "title": "Mobile app landing design & maintain",
-    "image": "https://i.ibb.co/9NzFMcc/GPID-1100312106-00.jpg"
+    "image": "https://i.ibb.co/Db0d1PJ/pppppppp.png",
+    "live":"",
+    "client":"",
+    "server":""
    
   },
   
@@ -21,7 +28,10 @@
     "category": "PHOTOSHOP",
     "totalLike": "600",
     "title": "Logo design creativity & Application ",
-    "image": "https://i.ibb.co/jMGbnfq/GPID-1100580188-00.jpg"
+    "image": "https://i.ibb.co/kh4QQZc/Home-jpg.jpg",
+    "live":"",
+    "client":"",
+    "server":""
    
   },
   
@@ -30,7 +40,10 @@
     "category": "FIGMA",
     "totalLike": "600",
     "title": "Mobile app landing design & Services",
-    "image": "https://i.ibb.co/jMGbnfq/GPID-1100580188-00.jpg"
+    "image": "https://i.ibb.co/G3Nxnjp/assignment-9.png",
+    "live":"",
+    "client":"",
+    "server":""
    
   },
   
@@ -39,7 +52,10 @@
     "category": "WEB DESIGN",
     "totalLike": "600",
     "title": "Mobile app landing design & Services",
-    "image": "https://i.ibb.co/L5cRX7t/GPID-1100330046-00.jpg"
+    "image": "https://i.ibb.co/DzGCCxw/p.png",
+    "live":"",
+    "client":"",
+    "server":""
    
   },
   
@@ -48,7 +64,10 @@
     "category": "DEVELOPMENT",
     "totalLike": "600",
     "title": "App for tecnology & services",
-    "image": "https://i.ibb.co/BTNP6dh/B0589-132189-00.jpg"
+    "image": "https://i.ibb.co/SfpNsMJ/p.png",
+    "live":"",
+    "client":"",
+    "server":""
    
   }
   
