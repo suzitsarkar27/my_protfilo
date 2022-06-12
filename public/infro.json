@@ -13,60 +13,60 @@
   
   {
     "id": 2,
-    "category": "APPLICATION",
+    "category": "TOOLS MANUGACTURER MREN STACK",
     "totalLike": "600",
     "title": "Mobile app landing design & maintain",
     "image": "https://i.ibb.co/Db0d1PJ/pppppppp.png",
-    "live":"",
-    "client":"",
-    "server":""
+    "live":"https://tools-manufacturer-client.web.app",
+    "client":"https://github.com/suzitsarkar27/Tools-manufacture-client-code",
+    "server":"https://github.com/suzitsarkar27/Tools-manufacture-server-code"
    
   },
   
   {
     "id": 3,
-    "category": "PHOTOSHOP",
+    "category": "HOME TUTOR FONT IN",
     "totalLike": "600",
     "title": "Logo design creativity & Application ",
     "image": "https://i.ibb.co/kh4QQZc/Home-jpg.jpg",
-    "live":"",
-    "client":"",
+    "live":"https://assignment-10-react-firebass.firebaseapp.com/",
+    "client":"https://github.com/suzitsarkar27/Home-Turor-clinet",
     "server":""
    
   },
   
   {
     "id": 4,
-    "category": "FIGMA",
+    "category": "PRODUCT ANALYSIS FONT IN",
     "totalLike": "600",
     "title": "Mobile app landing design & Services",
     "image": "https://i.ibb.co/G3Nxnjp/assignment-9.png",
-    "live":"",
-    "client":"",
+    "live":"https://glittering-douhua-340b23.netlify.app/",
+    "client":"https://github.com/suzitsarkar27/Assignment-9",
     "server":""
    
   },
   
   {
     "id": 5,
-    "category": "WEB DESIGN",
+    "category": "PHONE E-COMARCE FONT IN",
     "totalLike": "600",
     "title": "Mobile app landing design & Services",
     "image": "https://i.ibb.co/DzGCCxw/p.png",
-    "live":"",
-    "client":"",
+    "live":"https://glittering-zuccutto-74b614.netlify.app/",
+    "client":"https://github.com/suzitsarkar27/Assignment-8",
     "server":""
    
   },
   
   {
     "id": 6,
-    "category": "DEVELOPMENT",
+    "category": "PHONE HUNTER FONT IN",
     "totalLike": "600",
     "title": "App for tecnology & services",
     "image": "https://i.ibb.co/SfpNsMJ/p.png",
-    "live":"",
-    "client":"",
+    "live":"https://suzitsarkar27.github.io/assignment-6/index.html",
+    "client":"https://github.com/suzitsarkar27/assignment-6",
     "server":""
    
   }

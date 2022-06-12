@@ -28,8 +28,7 @@
   text-transform: uppercase;
 }
 .Portfolio .category span {
-  color: #ff014f;
-  font-size: 13px;
+  font-size:16px;
   letter-spacing: 2px;
   font-weight: 500;
 }
@@ -50,9 +49,7 @@
   transition: 0.5s;
   padding-bottom: 30px;
 }
-.Portfolio .box:hover h2 {
-  color: #ff014f;
-}
+
 .Portfolio .box:hover {
   color: black;
 }
