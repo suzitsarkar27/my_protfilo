@@ -8,7 +8,7 @@ const Hearder = ({children}) => {
     <li> <a className="hover:text-red-500" href='#features'>features</a></li>,
     <li> <a className="hover:text-red-500" href='#portfolio'>portfolio</a></li>,
     <li><a className="hover:text-red-500" href='#resume'>resume</a></li>,
-    <li> <a className="hover:text-red-500" href='#clients'>clients</a></li>,
+    <li> <a className="hover:text-red-500" href='#skill'>skill</a></li>,
     <li> <a className="hover:text-red-500" href='#blog'>blog</a> </li>,
     <li><a className="hover:text-red-500" href='#contact'>contact</a> </li>,
 

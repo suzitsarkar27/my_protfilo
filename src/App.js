@@ -1,5 +1,7 @@
 
 import './App.css';
+import Blogs from './Pages/Blogs/Blogs';
+import Contact from './Pages/Contact/Contact';
 import Home from './Pages/Home/Home';
 import Protfolio from './Pages/Protfolio/Protfolio';
 
@@ -12,6 +14,9 @@ function App() {
     <Hearder>
           <Home></Home>
           <Protfolio></Protfolio>
+          <Contact></Contact>
+          <Blogs></Blogs>
+         
        </Hearder>
      
 
