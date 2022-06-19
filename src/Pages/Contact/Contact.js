@@ -7,9 +7,9 @@ const Contact = () => {
   return (
     <div className="mt-32 ">
       <h1 className="text-center text-4xl font-bold mb-16">Get In <span className="text-blue-600">Touch</span></h1>
-      <div class="card lg:card-side boxex p-10">
+      <div class="card lg:card-side boxex p-10 md:items-center">
         
-        <div className="contact-infro w-9/12 ">
+        <div className="contact-infro w-9/12 md:mb-10">
 
            <div className="flex gap-10 items-center">
              <div> <img className="h-24" src={phone} alt="" /></div>

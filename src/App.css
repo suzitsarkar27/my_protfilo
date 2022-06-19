@@ -68,6 +68,11 @@ button {
   color: white;
   transform: translateY(-10px);
 }
+.btn_hover:hover {
+  background: #ff014f;
+  color: white;
+  transition:.5s;
+}
 .btn_button:hover {
   background: #ff014f;
   color: white;
