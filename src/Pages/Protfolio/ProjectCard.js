@@ -18,12 +18,17 @@ const ProjectCard = ({project}) => {
         <div className='title'>
           <h2>{title}</h2>
        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-          <button className='btn_shadow '>
-           <a href={live}> LIVE SIDE</a>
-          </button>
-          <button className='btn_shadow '>
-             <a href={client}>CODE LINK</a>
-          </button>
+
+           <a href={live}>
+           <button className='btn_shadow '>
+             LIVE SIDE
+           </button></a>
+          
+           <a href={client}>
+            <button className='btn_shadow '>
+               CODE LINK
+           </button></a>
+          
           <button className='btn_shadow '>
              DETALCE
           </button>

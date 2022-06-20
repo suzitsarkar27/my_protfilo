@@ -8,13 +8,13 @@ import "./Bannar.css";
 
 const Bannar = () => {
   return (
-    <div class="hero min-h-screen " id="home">
+    <div class="hero min-h-screen mt-5 " id="home">
        <div class="hero-content flex-col lg:flex-row">
       
         <div>
         <div >
           <div >
-            <h3>WELCOME TO MY WORLD</h3>
+            <h3 className="text-2xl">WELCOME TO MY WORLD</h3>
             <h1>
               Hi, I’m <span>Suzit</span>
             </h1>
@@ -22,13 +22,14 @@ const Bannar = () => {
               a
               <span>
                 <Typewriter
-                  words={[" Professional Coder.", " Developer."]}
+                 
                   loop
                   cursor
-                  cursorStyle="|"
-                  typeSpeed={70}
+                  cursorStyle="_"
+                  typeSpeed={50}
                   deleteSpeed={50}
                   delaySpeed={1000}
+                  words={[' Professional Coder.', ' Developer.']}
                 />
               </span>
             </h2>
@@ -45,15 +46,24 @@ const Bannar = () => {
               <div className="col_1">
                 <h4>FIND WITH ME</h4>
                 <div className="button">
-                  <button className="btn_shadow">
-                    <i class="fab fa-facebook-f"></i>
-                  </button>
+  
+                  <a href="https://www.facebook.com/suzit.sarkar.39/" target="_blank"><button className="btn_shadow">
+                   <i class="fab fa-facebook-f"></i>
+                  </button></a>
+                  
+                  <a href="https://www.instagram.com/suzitsarkar5/"target="_blank">
                   <button className="btn_shadow">
                     <i class="fab fa-instagram"></i>
                   </button>
-                  <button className="btn_shadow">
+                  </a>
+                
+                <a href="www.linkedin.com/in/devsuzit"target="_blank">
+                <button className="btn_shadow">
                     <i class="fab fa-linkedin-in"></i>
                   </button>
+                </a>
+                 
+
                 </div>
               </div>
               <div className="col_1">
