@@ -69,6 +69,10 @@
   right: 10%;
   width: 510px;
 }
+.radious{
+  border-radius: 20px;
+}
+
 @media (max-width: 768px) {
   .hero .right,
   .hero .left {

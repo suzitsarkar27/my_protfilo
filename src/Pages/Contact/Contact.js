@@ -5,6 +5,8 @@ import location from '../../assest/icon/location.svg'
  import 'react-toastify/dist/ReactToastify.css';
 import emailjs from '@emailjs/browser';
 import { useState } from "react";
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 
 const Contact = () => {
 
@@ -31,11 +33,34 @@ const Contact = () => {
   
   
   return (
-    <div className="mt-32 " id="contact">
-      <h1 className="text-center text-4xl font-bold mb-16">Get In <span className="text-blue-600">Touch</span></h1>
-      <div class="card lg:card-side boxex p-10 md:items-center">
+    <div className="mt-32 mb-20 contact_shaddow " id="contact">
+      <Fade left>
+      <h1 className="text-center text-4xl font-bold mb-16 mt-5">Get In <span className="text-blue-600">Touch</span></h1>
+     </Fade>
+
+     <div className="button ml-5" >
+              <a className="ml-3 text-lg" href="https://www.facebook.com/suzit.sarkar.39/" target="_blank"><button className="btn_shadow">
+              <i class="fab fa-facebook-f"></i>
+              </button></a>
+              
+              <a className="ml-3 text-lg" href="https://www.instagram.com/suzitsarkar5/"target="_blank">
+              <button className="btn_shadow">
+                <i class="fab fa-instagram"></i>
+              </button>
+              </a>
+            <a className="ml-3 text-lg" href="https://www.linkedin.com/in/devsuzit/"target="_blank">
+            <button className="btn_shadow">
+                <i class="fab fa-linkedin-in"></i>
+            </button></a>
+            <a className="ml-3 text-lg" href="https://github.com/suzitsarkar27"target="_blank">
+            <button className="btn_shadow">
+                <i class="fab fa-github"></i>
+            </button></a>
+       </div> 
+      <div class="card lg:card-side p-10 md:items-center">
         
         <div className="contact-infro w-9/12 md:mb-10">
+      <Zoom left>
 
            <div className="flex gap-10 items-center">
              <div> <img className="h-24" src={phone} alt="" /></div>
@@ -56,29 +81,34 @@ const Contact = () => {
              <div>
               <h2 className="text-3xl font-medium">Locaton</h2>
               <h5 className="text-3xl font-medium">Biyanibazar, Sylhet</h5>
-              </div>
-           </div>
-    
+           </div> 
         </div>
 
-        <form onSubmit={sendEmail}  class="card-body justify-end w-9/12">
+           
+       </Zoom>
+        </div>
+
+         <Zoom right>  <form onSubmit={sendEmail}  class="card-body justify-end w-9/12">
           <>
             <div className="lg:flex gap-5">
-            <input type="text" name="fullName" placeholder="Full Name" class="input input-bordered w-full " />
-            <input type="text" name="phone" placeholder="Phone Number" class="input input-bordered w-full " />
+            <input type="text" name="fullName"  placeholder="Full Name" class="input input-bordered w-full " required/>
+            <input type="text" name="phone" placeholder="Phone Number" class="input input-bordered w-full " required/>
             </div>
-            <input type="text" name="email" placeholder="Email" class="input input-bordered w-full " />
+            <input type="text" name="email" placeholder="Email" class="input input-bordered w-full input_shadow " required/>
             <div>
-            <input type="text" name="message" placeholder="Masseges" class="input input-bordered w-full" />
-
-            <button className="btn_shadow mt-5">Send Messages</button>
+            {/* <textarea rows="4" cols="50"  name="message" placeholder="Masseges" class="input input-bordered w-full" required />
+             */}
+            <textarea rows="3" placeholder="Enter text here..." class=" input-bordered w-full input_shadow " cols="40" name="message"  required/> 
+            <button className="btn_shadow mt-5 md:d-n ">Send Messages</button>
             </div>
             <div>
                {result ? <Result/> :null}
             </div>
           </>
-        </form>
+             </form>
+        </Zoom>
       </div>
+      <hr className="border-l-4 mt-10" />
     </div>
   );
 };

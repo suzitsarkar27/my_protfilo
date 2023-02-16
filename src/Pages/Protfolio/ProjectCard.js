@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Rotate from 'react-reveal/Rotate';
+import Slide from 'react-reveal/Slide'
 
 const ProjectCard = ({project}) => {
    
@@ -6,6 +8,7 @@ const ProjectCard = ({project}) => {
     return (
       <>
       <div className='box btn_shadow w-full'>
+       <Rotate top left cascade>
         <div className='img'>
           <img src={image} alt=''  />
         </div>
@@ -17,24 +20,24 @@ const ProjectCard = ({project}) => {
         </div>
         <div className='title'>
           <h2>{title}</h2>
-       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
 
-           <a href={live}>
+       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+           <a href={live} target='_blank'>
            <button className='btn_shadow '>
              LIVE SIDE
            </button></a>
           
            <a href={client}>
-            <button className='btn_shadow '>
+            <button className='btn_shadow 'target='_blank'>
                CODE LINK
            </button></a>
           
-          <button className='btn_shadow '>
+          <button className='btn_shadow 'target='_blank'>
              DETALCE
           </button>
-       </div>
-
+         </div>
         </div>
+        </Rotate>  
       </div>
 
     </>
